@@ -1,0 +1,63 @@
+repo_name: zaknbur/vega_datasets
+report_id: 1536c96e635f8101a3f6cc534664fb13
+repo_type: Public
+timestamp: '2023-11-23T15:31:48+00:00'
+requested_by: jakevdp
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: setup.py
+  last_updated_by: Jake VanderPlas
+  last_updated_on: 2018-01-13 04:19:06.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Jake VanderPlas
+  last_updated_on: 2018-01-13 04:19:06.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/pandas
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source: setup.py
+  last_updated_by: Jake VanderPlas
+  last_updated_on: 2018-01-13 04:19:06.000000000 Z
